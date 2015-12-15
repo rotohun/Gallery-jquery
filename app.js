@@ -31,7 +31,11 @@ $(document).ready(function($) {
 
 		var overlay = $(this).children('.overlay');
 		
-		overlay.fadeOut(400);
+		overlay.fadeOut( 400, function(e) {
+			
+			e.remove();
+
+		});;
 	});
 
 });
