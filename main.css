@@ -47,7 +47,7 @@ header a{
 .gallery .gallery-items{
 	display: block;
 	float: left;
-	max-width: 23%;
+	width: 23%;
 	cursor: pointer;
 	box-sizing:border-box;
 	position: relative;
@@ -84,14 +84,26 @@ header a{
 	text-align: center;
 }
 
+
 footer{
 	text-align: center;
 }
 
+@media screen and (max-width: 768px){
+	.gallery .gallery-items{
+		width: 48%;
+		margin-right: 8px;
+	}
+}
 
 
+@media screen and (max-width: 568px){
 
+		.gallery .gallery-items{
+			width: 100%;
+			margin-right: 8px;
+		}
 
-
+}
 
 
