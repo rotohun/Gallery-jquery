@@ -31,7 +31,7 @@ $(document).ready(function($) {
 
 		var overlay = $(this).children('.overlay');
 		
-		overlay.fadeOut( 400, function(e) {
+		overlay.fadeOut( 800, function(e) {
 			
 			e.remove();
 
